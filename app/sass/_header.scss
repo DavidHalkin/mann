@@ -1,0 +1,28 @@
+.header{
+	background: #222;
+	height: 40px;
+	ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li{
+			padding-right: 50px;
+			&:last-child{
+				padding-right: 0;
+			}
+		}
+		a{
+			color: #fff;
+			font-size: 18px;
+			line-height: 20px;
+			font-weight: 500;
+		}
+	}
+	strong{
+		font-weight: normal;
+		a{
+			color: #f8c843;
+			font-weight: 900;
+		}
+	}
+}

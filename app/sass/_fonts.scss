@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'GoodPro-Book';
+    src: url('../fonts/GoodPro-Book.eot');
+    src: url('../fonts/GoodPro-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GoodPro-Book.woff2') format('woff2'),
+        url('../fonts/GoodPro-Book.woff') format('woff'),
+        url('../fonts/GoodPro-Book.ttf') format('truetype'),
+        url('../fonts/GoodPro-Book.svg#GoodPro-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GoodPro';
+    src: url('../fonts/GoodPro-Medium.eot');
+    src: url('../fonts/GoodPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GoodPro-Medium.woff2') format('woff2'),
+        url('../fonts/GoodPro-Medium.woff') format('woff'),
+        url('../fonts/GoodPro-Medium.ttf') format('truetype'),
+        url('../fonts/GoodPro-Medium.svg#GoodPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GoodPro';
+    src: url('../fonts/GoodPro-Black.eot');
+    src: url('../fonts/GoodPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GoodPro-Black.woff2') format('woff2'),
+        url('../fonts/GoodPro-Black.woff') format('woff'),
+        url('../fonts/GoodPro-Black.ttf') format('truetype'),
+        url('../fonts/GoodPro-Black.svg#GoodPro-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GoodPro';
+    src: url('../fonts/GoodPro-LightItalic.eot');
+    src: url('../fonts/GoodPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GoodPro-LightItalic.woff2') format('woff2'),
+        url('../fonts/GoodPro-LightItalic.woff') format('woff'),
+        url('../fonts/GoodPro-LightItalic.ttf') format('truetype'),
+        url('../fonts/GoodPro-LightItalic.svg#GoodPro-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
