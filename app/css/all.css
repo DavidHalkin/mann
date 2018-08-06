@@ -682,6 +682,10 @@ body {
   font-weight: 900;
 }
 
+.article p .red {
+  display: inline-block;
+}
+
 @media screen and (max-width: 550px) {
   .article p {
     font-size: 16px;
@@ -753,10 +757,10 @@ body {
 
 @media screen and (max-width: 900px) {
   .article h2 {
-    font-size: 30px;
-    line-height: 32px;
     padding: 5px;
     margin-top: 10px;
+    font-size: 23px;
+    line-height: 25px;
   }
 }
 
@@ -1388,6 +1392,13 @@ body {
   padding: 0 14px 30px;
 }
 
+@media screen and (max-width: 750px) {
+  .tickets_block p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .tickets_block p span {
   color: #0fcec7;
 }
@@ -1398,6 +1409,13 @@ body {
   line-height: 14px;
   font-style: normal;
   padding: 0 14px 15px;
+}
+
+@media screen and (max-width: 750px) {
+  .tickets_block em {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .row_tickets {

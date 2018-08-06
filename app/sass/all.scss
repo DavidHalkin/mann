@@ -51,6 +51,7 @@ body{
 		font-size: 21px;
 		line-height: 23px;
 		font-weight: 900;
+		.red{display: inline-block;}
 		@media screen and (max-width: 550px){
 			font-size: 16px;
 			line-height: 18px;
@@ -108,10 +109,12 @@ body{
 			}
 		}
 		h2{
-			font-size: 30px;
-			line-height: 32px;
+			// font-size: 30px;
+			// line-height: 32px;
 			padding: 5px;
 			margin-top: 10px;
+			font-size: 23px;
+			line-height: 25px;
 			@media screen and (max-width: 550px){
 				margin: 40px auto 0;
 				max-width: 80%;
@@ -599,6 +602,10 @@ body{
 		font-weight: 500;
 		margin: 0;
 		padding: 0 14px 30px;
+		@media screen and (max-width: 750px){
+			padding-left: 0;
+			padding-right: 0;
+		}
 		span{
 			color: #0fcec7;
 		}
@@ -609,6 +616,10 @@ body{
 		line-height: 14px;
 		font-style: normal;
 		padding: 0 14px 15px;
+		@media screen and (max-width: 750px){
+			padding-left: 0;
+			padding-right: 0;
+		}
 	}
 }
 .row_tickets{
